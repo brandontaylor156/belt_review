@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility classes start */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+    background-color: red;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Utility classes end */
+
+/* header start */
+header {
+    background-color: yellow;
+    min-height: 20px;
+}
+/* header end */
+
+/* nav start */
+nav {
+    background-color: aqua;
+    min-height: 20px;
+}
+/* nav end */
+
+/* hero start */
+.hero {
+    background-color: green;
+    min-height: 30px;
+}
+/* hero end */
+
+/* features start */
+.features {
+    background-color: brown;
+    min-height: 40px;
+}
+/* features end */
+
+.cookie {
+    background-color: darkmagenta;
+    min-height: 30px;
+}
